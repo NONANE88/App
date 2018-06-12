@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1DCF3E20CBEC2B00448C68 /* AddDino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DCF3D20CBEC2B00448C68 /* AddDino.swift */; };
+		6F43F9A120C9520F00A5BAFB /* Dino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F43F9A020C9520F00A5BAFB /* Dino.swift */; };
+		6F450CAD20C7EDAB0074DB37 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F450CAC20C7EDAB0074DB37 /* Login.swift */; };
+		6F512F9C20C9312B00D7F148 /* AllDinosaure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F512F9B20C9312B00D7F148 /* AllDinosaure.swift */; };
+		6F9E83E420C7D7A400463FE9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E83E520C7D7A400463FE9 /* Alamofire.framework */; };
+		6FB85A2B20CA9E2A008F618B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB85A2A20CA9E2A008F618B /* CustomCell.swift */; };
+		6FDE4A8320C7D25600FBD546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE4A8220C7D25600FBD546 /* AppDelegate.swift */; };
+		6FDE4A8520C7D25600FBD546 /* Regestration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE4A8420C7D25600FBD546 /* Regestration.swift */; };
+		6FDE4A8820C7D25600FBD546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE4A8620C7D25600FBD546 /* Main.storyboard */; };
+		6FDE4A8A20C7D25600FBD546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE4A8920C7D25600FBD546 /* Assets.xcassets */; };
+		6FDE4A8D20C7D25600FBD546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE4A8B20C7D25600FBD546 /* LaunchScreen.storyboard */; };
+		6FF008ED20C7F5C10019B5BE /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF008EC20C7F5C10019B5BE /* LogOut.swift */; };
+		E052D5D381437A1DC176277D /* Pods_ART_Coral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766045496C17CFA231247669 /* Pods_ART_Coral.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B00FBCF12B6C1EC7BF3E785 /* Pods-ART-Coral.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ART-Coral.release.xcconfig"; path = "Pods/Target Support Files/Pods-ART-Coral/Pods-ART-Coral.release.xcconfig"; sourceTree = "<group>"; };
+		6F1DCF3D20CBEC2B00448C68 /* AddDino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDino.swift; sourceTree = "<group>"; };
+		6F43F9A020C9520F00A5BAFB /* Dino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dino.swift; sourceTree = "<group>"; };
+		6F450CAC20C7EDAB0074DB37 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		6F512F9B20C9312B00D7F148 /* AllDinosaure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDinosaure.swift; sourceTree = "<group>"; };
+		6F9E83E520C7D7A400463FE9 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB85A2A20CA9E2A008F618B /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6FDE4A7F20C7D25600FBD546 /* ART-Coral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ART-Coral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDE4A8220C7D25600FBD546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FDE4A8420C7D25600FBD546 /* Regestration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regestration.swift; sourceTree = "<group>"; };
+		6FDE4A8720C7D25600FBD546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FDE4A8920C7D25600FBD546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FDE4A8C20C7D25600FBD546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FDE4A8E20C7D25600FBD546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF008EC20C7F5C10019B5BE /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		766045496C17CFA231247669 /* Pods_ART_Coral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ART_Coral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FC6C9060BD286918580F23 /* Pods-ART-Coral.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ART-Coral.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ART-Coral/Pods-ART-Coral.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDE4A7C20C7D25600FBD546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E83E420C7D7A400463FE9 /* Alamofire.framework in Frameworks */,
+				E052D5D381437A1DC176277D /* Pods_ART_Coral.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3399F88179DFB7CD7CE8C54F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E83E520C7D7A400463FE9 /* Alamofire.framework */,
+				766045496C17CFA231247669 /* Pods_ART_Coral.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FDE4A7620C7D25600FBD546 = {
+			isa = PBXGroup;
+			children = (
+				6FDE4A8120C7D25600FBD546 /* ART-Coral */,
+				6FDE4A8020C7D25600FBD546 /* Products */,
+				96774A0B2554D922569C377D /* Pods */,
+				3399F88179DFB7CD7CE8C54F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDE4A8020C7D25600FBD546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDE4A7F20C7D25600FBD546 /* ART-Coral.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FDE4A8120C7D25600FBD546 /* ART-Coral */ = {
+			isa = PBXGroup;
+			children = (
+				6FDE4A8220C7D25600FBD546 /* AppDelegate.swift */,
+				6FDE4A8420C7D25600FBD546 /* Regestration.swift */,
+				6F450CAC20C7EDAB0074DB37 /* Login.swift */,
+				6FF008EC20C7F5C10019B5BE /* LogOut.swift */,
+				6FDE4A8620C7D25600FBD546 /* Main.storyboard */,
+				6F512F9B20C9312B00D7F148 /* AllDinosaure.swift */,
+				6F1DCF3D20CBEC2B00448C68 /* AddDino.swift */,
+				6F43F9A020C9520F00A5BAFB /* Dino.swift */,
+				6FB85A2A20CA9E2A008F618B /* CustomCell.swift */,
+				6FDE4A8920C7D25600FBD546 /* Assets.xcassets */,
+				6FDE4A8B20C7D25600FBD546 /* LaunchScreen.storyboard */,
+				6FDE4A8E20C7D25600FBD546 /* Info.plist */,
+			);
+			path = "ART-Coral";
+			sourceTree = "<group>";
+		};
+		96774A0B2554D922569C377D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC6C9060BD286918580F23 /* Pods-ART-Coral.debug.xcconfig */,
+				4B00FBCF12B6C1EC7BF3E785 /* Pods-ART-Coral.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDE4A7E20C7D25600FBD546 /* ART-Coral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDE4A9120C7D25600FBD546 /* Build configuration list for PBXNativeTarget "ART-Coral" */;
+			buildPhases = (
+				1F85B3BD7210C0DC6540094E /* [CP] Check Pods Manifest.lock */,
+				6FDE4A7B20C7D25600FBD546 /* Sources */,
+				6FDE4A7C20C7D25600FBD546 /* Frameworks */,
+				6FDE4A7D20C7D25600FBD546 /* Resources */,
+				323C5C47F16D6D2C33835624 /* [CP] Embed Pods Frameworks */,
+				190E277413388A162C0AA84E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ART-Coral";
+			productName = "ART-Coral";
+			productReference = 6FDE4A7F20C7D25600FBD546 /* ART-Coral.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDE4A7720C7D25600FBD546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Кирилл Трискало";
+				TargetAttributes = {
+					6FDE4A7E20C7D25600FBD546 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FDE4A7A20C7D25600FBD546 /* Build configuration list for PBXProject "ART-Coral" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDE4A7620C7D25600FBD546;
+			productRefGroup = 6FDE4A8020C7D25600FBD546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDE4A7E20C7D25600FBD546 /* ART-Coral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDE4A7D20C7D25600FBD546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDE4A8D20C7D25600FBD546 /* LaunchScreen.storyboard in Resources */,
+				6FDE4A8A20C7D25600FBD546 /* Assets.xcassets in Resources */,
+				6FDE4A8820C7D25600FBD546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190E277413388A162C0AA84E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ART-Coral/Pods-ART-Coral-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F85B3BD7210C0DC6540094E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ART-Coral-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323C5C47F16D6D2C33835624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ART-Coral/Pods-ART-Coral-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ART-Coral/Pods-ART-Coral-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDE4A7B20C7D25600FBD546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F43F9A120C9520F00A5BAFB /* Dino.swift in Sources */,
+				6F512F9C20C9312B00D7F148 /* AllDinosaure.swift in Sources */,
+				6F450CAD20C7EDAB0074DB37 /* Login.swift in Sources */,
+				6F1DCF3E20CBEC2B00448C68 /* AddDino.swift in Sources */,
+				6FF008ED20C7F5C10019B5BE /* LogOut.swift in Sources */,
+				6FDE4A8520C7D25600FBD546 /* Regestration.swift in Sources */,
+				6FB85A2B20CA9E2A008F618B /* CustomCell.swift in Sources */,
+				6FDE4A8320C7D25600FBD546 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FDE4A8620C7D25600FBD546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FDE4A8720C7D25600FBD546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FDE4A8B20C7D25600FBD546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FDE4A8C20C7D25600FBD546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FDE4A8F20C7D25600FBD546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FDE4A9020C7D25600FBD546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDE4A9220C7D25600FBD546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FC6C9060BD286918580F23 /* Pods-ART-Coral.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T439UQJL26;
+				INFOPLIST_FILE = "ART-Coral/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "triskalo.ART-Coral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FDE4A9320C7D25600FBD546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B00FBCF12B6C1EC7BF3E785 /* Pods-ART-Coral.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T439UQJL26;
+				INFOPLIST_FILE = "ART-Coral/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "triskalo.ART-Coral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDE4A7A20C7D25600FBD546 /* Build configuration list for PBXProject "ART-Coral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDE4A8F20C7D25600FBD546 /* Debug */,
+				6FDE4A9020C7D25600FBD546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDE4A9120C7D25600FBD546 /* Build configuration list for PBXNativeTarget "ART-Coral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDE4A9220C7D25600FBD546 /* Debug */,
+				6FDE4A9320C7D25600FBD546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FDE4A7720C7D25600FBD546 /* Project object */;
+}
